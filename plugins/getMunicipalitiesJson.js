@@ -6,7 +6,7 @@ Vue.prototype.$getmunicipalitiesJson = (prefecturesSelected) => {
   return axios
     .get(url, {
       headers: {
-        'X-API-KEY': 'PzAqqyzgOkcB6huWPg2Ss9dcr6pR1gBmcYXjudWl'
+        'X-API-KEY': '***********************************'
       },
       data: {}
     })
